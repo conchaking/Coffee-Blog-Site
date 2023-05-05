@@ -1,0 +1,117 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    line-height: 2; 
+}
+p{
+    text-decoration: none;
+}
+img{
+    max-width:100%;
+    width: 75%;
+    height: auto;
+}
+/*utilities*/
+.container{
+    width:80%;
+    margin:0 auto;
+}
+.btn{
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    width:30%;
+    padding:10px;
+    text-align: center;
+}
+.btn-read{
+    background-color: black;
+}
+.btn-courses{
+    background-color: rgb(189, 83, 7);
+}
+.btn-aside{
+    background-color: saddlebrown;
+    color: white;
+    width: 100%;
+
+}
+/*header*/
+.site-header{
+    /* content: ''; */
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     height: 300px;
+}
+.main-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-bar h1{
+    color: white;
+
+}
+.navigation{
+    margin-bottom: 50px;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.text-header h2{
+    color: white;
+    text-align: center;
+}
+.text-header p{
+    color: white;
+    text-align: center;
+}
+
+.img-blog {
+    margin-top: 20px;
+    opacity: 0.80;
+}
+/*body*/
+main{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+aside{
+    width: 200px;
+}
+.container{
+    width: 500px;
+}
+/*footer*/
+footer{
+    background-color: black;
+}
+
+/*about*/
+.about-container{
+    display: flex;
+    margin:50px 0;
+}
+.about-container img{
+    width: 50%;
+}
+.about-container p{
+    margin-left: 20px;
+
+}
+.about-container h2{
+    text-align: center;
+}
